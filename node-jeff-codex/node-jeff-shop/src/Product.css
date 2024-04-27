@@ -1,0 +1,15 @@
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card input {
+    margin-bottom: 5px;
+  }
+  
+  .product-card button {
+    margin-right: 5px;
+  }
+  

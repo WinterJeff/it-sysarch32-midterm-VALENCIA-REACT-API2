@@ -15,12 +15,6 @@ mongoose.connect(
 );
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb+srv://estelloreabigail91:' +
-    process.env.MONGO_ATLAS_PW +
-    '@node-rest-shop.wlg5nqf.mongodb.net/'
-);
-mongoose.Promise = global.Promise;
-
 
 
 app.use(morgan('dev'));
